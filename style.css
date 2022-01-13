@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-side img{
+    width: 400px;
+}
+.leftside{
+    width: 50%;
+}
+.btn a{
+   text-decoration: none;
+   border: 1px solid green;
+   font-size: 20px;
+   padding: 20px 70px;
+   background-image: linear-gradient(45deg,green,red,green);
+   color: wheat;
+}
+.btn{
+    margin-top:50px;
+}
+.header2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.second-section{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
+}
+.dhaka{
+    width: 300px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.dhaka img{
+    width: 100%;
+}
+.rajshahi{
+    width: 300px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.rajshahi img{
+    width: 100%;
+}
+.khulna{
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    margin-bottom: 50px;
+}
+.khulna img{
+    width: 100%;
+}
+h2{
+    text-align: center;
+  }
+  .description{
+      text-align: justify;
+      padding: 15px;
+      
+  }
+  .detail{
+      padding: 10px 30px;
+      background-color: aqua;
+      border: none;
+      margin-left: 98px;
+      margin-bottom: 10px;
+      transition: .8s;
+  }
+.detail:hover{
+    background-color: red;
+    color: white;
+    
+}
+
+
+  footer{
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+  }
+  
